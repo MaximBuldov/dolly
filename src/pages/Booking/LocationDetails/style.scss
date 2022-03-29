@@ -1,0 +1,22 @@
+@import './src/styles/colors';
+.location-details {
+  min-width: 600px;
+  .single-address {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #222;
+    &:last-child {
+      border-bottom: 0;
+      margin: 0;
+      padding: 0;
+    }
+    &__unit {
+      margin-bottom: 10px;
+    }
+    .single-checkbox {
+      margin-bottom: 10px;
+      padding: 5px;
+      background: $gray;
+    }
+  }
+}

@@ -1,0 +1,14 @@
+.counter {
+  display: flex;
+  align-items: center;
+  line-height: 1;
+  .minus, .plus {
+    cursor: pointer;
+  }
+  .number {
+    padding: 0 20px 5px;
+  }
+  .disable {
+    pointer-events: none;
+  }
+}

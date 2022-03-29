@@ -1,0 +1,11 @@
+.date-selected {
+  .ant-picker-calendar-full .ant-picker-panel .ant-picker-calendar-date, .ant-picker-calendar-full .ant-picker-panel .ant-picker-calendar-date-content {
+    height: 50px;
+  }
+  &__time {
+    text-align: center;
+  }
+  &__time-box-span {
+    padding: 0 15px;
+  }
+}

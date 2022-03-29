@@ -1,0 +1,18 @@
+.pagination {
+  margin-top: 20px;
+  &__progress-line {
+    width: 100%;
+    height: 4px;
+    background: #f0f2f5;
+    margin-bottom: 15px;
+  }
+  &__progress {
+    height: 4px;
+    background: #222;
+  }
+  &__buttons {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+}
